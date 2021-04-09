@@ -3,6 +3,7 @@ IP=$(cat /etc/IP)
 if [ ! -d /etc/SSHPlus/userteste ]; then
 mkdir /etc/SSHPlus/userteste
 fi
+figlet Rolka | lolcat
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-15s\n' "Created Trial User" ; tput sgr0
 echo ""
 [ "$(ls -A /etc/SSHPlus/userteste)" ] && echo -e "\033[1;32mActive Test!\033[1;37m" || echo -e "\033[1;31mNo active tests!\033[0m"
