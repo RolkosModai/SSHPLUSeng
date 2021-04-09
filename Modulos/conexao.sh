@@ -1617,7 +1617,6 @@ while true $x != "ok"
 do
 [[ ! -e '/home/sshplus' ]] && exit 0
 clear
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 figlet Rolka | lolcat
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[44;1;37m                Connection Settings                 \E[0m\n"
