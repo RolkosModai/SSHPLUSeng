@@ -63,6 +63,7 @@ backbot=$1
 		helice
 		echo -e "\e[1DOk"
 	}
+	figlet Rolka | lolcat
 	echo -e "\E[44;1;37m             Backup Manager              \E[0m"
 	echo ""
 	echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mCREATE BACKUP"
