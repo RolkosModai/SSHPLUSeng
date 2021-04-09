@@ -39,7 +39,7 @@ echo -e "\033[1;31m════════════════════�
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "WELCOME TO SSHPLUS MANAGER" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
-echo -e "             \033[1;31mDEMESIO! \033[1;33mMAR to be written !\033[0m"
+echo -e "             \033[1;31mATTENTION! \033[1;33mMAR to be written !\033[0m"
 echo ""
 echo -e "\033[1;31m• \033[1;33mINSTALL A SCRIPTS SET AS TOOLS\033[0m" 
 echo -e "\033[1;33m  FOR THE MANAGEMENT OF VPS, SYSTEM AND USERS\033[0m"
