@@ -1,4 +1,5 @@
 #!/bin/bash
+figlet Rolka | lolcat
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%20s%s\n' "   Change concurrent connection limit   " ; tput sgr0
 database="/root/usuarios.db"
 if [ ! -f "$database" ]; then
