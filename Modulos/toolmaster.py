@@ -17,9 +17,9 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(4. / 100)
 banner = '''
-figlet Rolka | lolcat
 ========= Hosts Manager =======\033[91m
 ========== SSHPLUS ========\033[96m
+========== RolkaMod ========\033[96m
 ''' 
 print banner
 def menu():
