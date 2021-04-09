@@ -201,6 +201,7 @@ if(__name__=='__main__'):
  main()
 PYTHON
 }
+figlet Rolka | lolcat
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-20s\n' "SSHPLUS Payload Generator" ; tput sgr0
 echo -ne "Type a target host: " && read valor1 # Entrada Host
 echo -ne "Now, enter a PROXY:PORT : " && read svar # Entrada proxy
