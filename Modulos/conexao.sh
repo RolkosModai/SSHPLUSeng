@@ -1618,7 +1618,6 @@ do
 [[ ! -e '/home/sshplus' ]] && exit 0
 clear
 figlet Rolka | lolcat
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[44;1;37m                Connection Settings                 \E[0m\n"
 echo -e "\033[1;32mSERVICE: \033[1;33mOPENSSH \033[1;32mPORT: \033[1;37m$(grep 'Port' /etc/ssh/sshd_config|cut -d' ' -f2 |grep -v 'no' |xargs)" && sts6="\033[1;32m◉ "
 
