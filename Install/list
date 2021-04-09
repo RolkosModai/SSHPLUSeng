@@ -1,6 +1,5 @@
 #!/bin/bash
 
-pip install lolcat
 echo "21" > /bin/versao
 echo "21" > /home/versao
 echo "21" > /home/sshplus
