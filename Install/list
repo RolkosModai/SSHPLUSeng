@@ -1,7 +1,4 @@
 #!/bin/bash
-apt-get install lolcat -y
-apt-get install grep -y
-clear
 echo "$ipdovps" >/etc/IP
 rm -rf /etc/SSHPlus/bot /etc/SSHPlus/ShellBot.sh /etc/SSHPlus/cabecalho /etc/SSHPlus/proxy.py > /dev/null 2>&1
 echo "Europa/Lithuania" > /etc/timezone
