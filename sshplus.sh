@@ -1,6 +1,5 @@
 ﻿#!/bin/bash
 apt-get install lolcat -y
-apt-get install grep -y
 clear
 wget https://raw.githubusercontent.com/RolkosModai/SSHPLUSeng/master/Install/list > /dev/null 2>&1
 wget https://raw.githubusercontent.com/RolkosModai/SSHPLUSeng/master/versao -O /bin/versao > /dev/null 2>&1
@@ -96,7 +95,7 @@ echo ""
 echo -e "\033[1;33mSOME PACKAGES ARE EXTREMELY REQUIRED !\033[0m"
 echo ""
 inst_pct () {
-_pacotes=("lolcat" "figlet" "bc" "screen" "cowsay" "nano" "unzip" "lsof" "netstat" "dos2unix" "nload" "jq" "curl" "figlet" "python" "python3" "python-pip" "python3-pip")
+_pacotes=("lolcat" "figlet" "bc" "screen" "cowsay" "nano" "unzip" "lsof" "netstat" "dos2unix" "nload" "jq" "curl" "python" "python3" "python-pip" "python3-pip")
 for _prog in ${_pacotes[@]}; do
     apt install $_prog -y
 done
